@@ -63,4 +63,7 @@ $(document).ready(function() {
             isLarge = true;
         }
     });
+    $("#reset").click(function () {
+        $('#object').fadeOut();
+    });
 });
